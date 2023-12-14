@@ -1,5 +1,13 @@
 # javascript版 Chip-8 模拟器
 
+![展示](./img1.png)
+
+运行方法
+```sh
+npm install
+npm run dev
+```
+
 参考：[https://en.wikipedia.org/wiki/CHIP-8#Opcode_table](https://en.wikipedia.org/wiki/CHIP-8#Opcode_table)  
 C/C++版本参考: [https://github.com/dmatlack/chip8](https://github.com/dmatlack/chip8)  
 下面是指令中文说明，我整理制作了一个表格，参考: [https://kaibaoom.tw/2019/07/22/chip8emu-instruction-set/](https://kaibaoom.tw/2019/07/22/chip8emu-instruction-set/)
