@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start:console": "npx tsc -p tsconfig.console.json && node --enable-source-maps ./dist/console.js",
+    "start:snake": "npm run start:console rom/snake.ch8"
   },
   "devDependencies": {
+    "@types/node": "^20.10.5",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
   }

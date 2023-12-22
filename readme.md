@@ -8,6 +8,11 @@ npm install
 npm run dev
 ```
 
+直接在控制台开玩
+```sh
+npm run start:snake
+```
+
 参考：[https://en.wikipedia.org/wiki/CHIP-8#Opcode_table](https://en.wikipedia.org/wiki/CHIP-8#Opcode_table)  
 C/C++版本参考: [https://github.com/dmatlack/chip8](https://github.com/dmatlack/chip8)  
 下面是指令中文说明，我整理制作了一个表格，参考: [https://kaibaoom.tw/2019/07/22/chip8emu-instruction-set/](https://kaibaoom.tw/2019/07/22/chip8emu-instruction-set/)
